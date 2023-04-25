@@ -1,0 +1,33 @@
+.chip-8-keyboard {
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chip-8-key {
+    font-size: 24pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 5px double white;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.chip-8-key.pressed {
+    color: black;
+    background-color: lime;
+    border-color: black1222;
+}
+
+.yes {
+    color: green
+}
+
+.no {
+    color: red
+}

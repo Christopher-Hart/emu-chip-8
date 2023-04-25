@@ -1,0 +1,11 @@
+.chip-8-display {
+    width: 832px;
+    aspect-ratio: 2/1;
+    background-color: rgb(0, 0, 0);
+    color: lime;
+}
+
+.App input {
+    padding: 10px;
+    margin: 2px;
+}
